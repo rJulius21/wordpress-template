@@ -1,0 +1,39 @@
+.header-brand{
+  display: flex;
+
+  width: 100%;
+  background-color: orange;
+
+  @mixin tabPort{
+    width: 80%;
+  }
+
+  @mixin tabLand{
+    width: 84%;
+  }
+
+  &__heading {
+    overflow: hidden;
+    background-color: rgb(197, 67, 89);
+    font-size: 2.4rem;
+    text-align: center;
+    
+    @mixin tabPort{
+      font-weight: 300;
+      font-size: 2.8rem;
+    }
+
+    @mixin tabLand{
+      font-size: 3.2rem;
+    }
+  }
+
+  &__logo-box{
+    width: 8rem;
+    background-color: yellowgreen;
+
+    @mixin tabLand{
+      width: 10rem;
+    }
+  }
+}

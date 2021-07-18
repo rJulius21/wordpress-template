@@ -1,0 +1,6 @@
+.footer{
+  display: flex;
+
+  padding: 4rem;
+  background-color: green;
+}

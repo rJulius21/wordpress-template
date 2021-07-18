@@ -1,0 +1,23 @@
+.front-page{
+    display: flex;
+    flex-direction: column;
+  
+    height: 100rem;
+    width: 100%;
+    background-color: $bg-mid;
+
+    &__text-box{
+      background-color: blue;
+    }
+
+    &__watermark{
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+  
+      opacity: .2;
+      width: 500px;
+    }
+  
+}

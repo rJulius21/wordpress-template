@@ -1,0 +1,52 @@
+.header-search{
+  display: flex;
+  display: none;
+
+  width: 100%;
+
+  @mixin tabPort{
+    display: flex;
+    display: none;
+  }
+
+  @mixin tabLand{
+    display: flex;
+    display: none;
+  }
+
+  &__input{
+    flex: 1;
+
+    font-size: 1.2rem;
+    outline:none;
+    transition: $tr-all-fast;
+    
+    &:focus {
+      padding: .6rem;
+      border: 2px solid $focus-color;
+      font-size: 1.8rem;
+    }
+
+    &:focus ~ .header-search__submit{
+      background-color: $focus-color;
+      border: 2px solid $focus-color;
+      font-size: 1.8rem;
+      color: $focus-text;
+    }
+  }
+
+  &__submit{
+    padding: 4px;
+    background-color: $bg-dark;
+    color: $white;
+    font-size: 1.2rem;
+    transition: $tr-all-fast;
+  }
+}
+
+/*
+*
+*
+*
+*
+*/ 

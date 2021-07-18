@@ -1,0 +1,77 @@
+.header-toggle-bar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  
+  width: 100%;
+  padding: 3px;
+  background-color: lightcyan;
+  
+  @mixin tabPort{
+    justify-content: space-evenly;
+
+    width: 20%;
+  }
+
+  @mixin tabLand{
+    width: 16%;
+    
+  }
+  
+  &__toggle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-right: .5rem;
+    border-radius: $circle-sm;
+    background-color: rgb(160, 112, 112);
+    transition: filter .2s;
+    cursor: $pointer;
+    
+    &:hover, &:active{
+      filter: $brighten;
+    }
+    
+    @mixin tabPort{
+      margin-right: 0px;
+    }
+
+    @mixin laptop{
+      height: 4.6rem;
+      width: 4.6rem;
+    }
+  }
+
+  &__icon{
+    height: 60%;
+  }
+}
+/*
+*
+*
+*
+*/
+
+#header-toggle--nav{
+
+  @mixin tabLand{
+    
+  }
+}
+
+#header-toggle--user-nav{
+
+  @mixin tabPort{
+    
+  }
+}
+
+#header-toggle--search{
+
+  @mixin tabLand{
+    
+  }
+}
