@@ -1,14 +1,13 @@
 .content-wrapper {
+  position: relative;
   display: flex;
   flex-direction: column;
   
   width: 100%;
   
-  
   @mixin laptop{
 
   }
-
   @mixin desktop{
     margin: 0 auto;
     width: $desktop;

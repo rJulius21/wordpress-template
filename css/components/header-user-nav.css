@@ -2,9 +2,9 @@
   display: flex;
   display: none;
 
-  background-color: orangered; 
   padding: .5rem;
   width: 100%;
+  background-color: rgb(226, 61, 11);
 
   @mixin tabPort{
     display: flex;

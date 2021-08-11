@@ -2,7 +2,7 @@
   display: flex;
 
   width: 100%;
-  background-color: orange;
+  background-color: rgb(145, 121, 125);
 
   @mixin tabPort{
     width: 80%;
@@ -16,7 +16,7 @@
     overflow: hidden;
     background-color: rgb(197, 67, 89);
     font-size: 2.4rem;
-    text-align: center;
+    padding-left: 10px;
     
     @mixin tabPort{
       font-weight: 300;
@@ -30,10 +30,16 @@
 
   &__logo-box{
     width: 8rem;
+    height: 8rem;
     background-color: yellowgreen;
 
     @mixin tabLand{
       width: 10rem;
+      height: 10rem;
     }
+  }
+
+  &__logo{
+    height: 100%;
   }
 }

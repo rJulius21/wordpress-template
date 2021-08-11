@@ -19,6 +19,7 @@
 @import "components/header-search";
 @import "components/header-toggle-bar";
 @import "components/header-user-nav";
+@import "components/hero";
 @import "components/item-card-sm";
 
 @import "layouts/archive";

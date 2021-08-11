@@ -10,11 +10,12 @@ $circle-md: 25rem;
 $circle-lg: 60rem;
 
 /* Z INDEXES */
-$z-modal: 10;
-$z-header: 9;
-$z-footer: 8;
-$z-link: 7;
-$z-body: 6;
+$z-modal: 5;
+$z-header: 4;
+$z-text: 3;
+$z-img: 2;
+$z-bg: 1;
+$z-body: 0;
 
 /* LOGO IMAGE SIZES USED AS BACKGROUND IMAGES */
 $logo-sm: 1px;

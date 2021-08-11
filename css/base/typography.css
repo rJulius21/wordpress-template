@@ -13,12 +13,12 @@ h1,h2,h3,h4,h5,h6,p,ul,li,ol,a{
 }
 
 h1,h2,h3,h4,h5,h6{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   width: 100%;
-  font-weight: 300;
+  font-weight: 400;
+}
+
+h6{
+  font-size: 2rem;
 }
 
 ul, ol{
@@ -42,7 +42,6 @@ a{
 
 p{
   font-size: 1.8rem;
-  color: $black;
   font-weight: 300;
 
   @mixin tabPort {

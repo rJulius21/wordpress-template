@@ -6,12 +6,12 @@
     <link rel="shortcut icon" type="image/jpg" href="/img/wb-black-hat-favicon.jpg"/>
     <?php wp_head(); ?>
   </head>
-  <body class="body" >
+  <body>
     <div class="wrapper">
       <header class="header">
 
         <div class="header-brand">
-          <div class="header-brand__logo-box"><img src="" alt="logo" class="header-brand__logo"></div>
+          <div class="header-brand__logo-box"><img src="<?php echo get_theme_file_uri('/img/logo.png')?>" alt="logo" class="header-brand__logo"></div>
           <h1 class="header-brand__heading">examplewebsitetitle.com</h1>
         </div>
 

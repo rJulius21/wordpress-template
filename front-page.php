@@ -4,20 +4,30 @@
 
     <!-- START FRONT-PAGE -->
     <div class="front-page">
-  
-      <img src="<?php echo get_theme_file_uri('img/toolbox-watermark.png'); ?>" alt="" class="front-page__watermark">
-      <p class="front-page__text-box">
-        what's happening dude?
-      </p>
-  
-      <?php
-        while(have_posts()) {
-          the_post(); 
-        ?>
-  
-        <h6> <?php the_title(); ?> </h6>
-  
-      <?php } wp_reset_postdata(); echo paginate_links(); ?>
+
+      <!-- START HERO -->
+      <div class="hero">
+        <img src="<?php echo get_theme_file_uri('/img/hero-bg.jpg'); ?>" alt="" class="hero__bg-img">
+        <img src="<?php echo get_theme_file_uri('/img/hero-img.png'); ?>" alt="" class="hero__img">
+        <img src="" alt="" class="hero__img-2">
+        <h1 class="hero__heading">Hero Heading</h1>
+        <p class="hero__sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quos aut odio.</p>
+      </div>
+      <!-- END HERO -->
+
+      <div class="row-spacer"></div>
+      <div class="row">
+
+      </div>
+      <div class="row-spacer"></div>
+      <div class="row">
+
+      </div>
+      <div class="row-spacer"></div>
+      <div class="row">
+
+      </div>
+      <div class="row-spacer"></div>
   
     </div>
     <!-- END FRONT-PAGE -->
