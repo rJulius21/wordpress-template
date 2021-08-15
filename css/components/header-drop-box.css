@@ -1,0 +1,31 @@
+.header-dropbox{
+  display: flex;
+  position: absolute;
+  top: 13rem;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all .3s ease-in;
+
+  opacity: 0;
+  background-color: rgb(153, 220, 240);
+  width: 90%;
+  height: 0vh;
+  box-shadow: $bs-lg;
+
+  &--open{
+    opacity: 1;
+    height: 60vh;
+  }
+
+  &--1{
+    background-color: blue;
+  }
+
+  &--2{
+    background-color: rgb(61, 15, 92);
+  }
+
+  &--3{
+    background-color: yellow;
+  }
+}

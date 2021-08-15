@@ -1,6 +1,5 @@
 .header-nav{
   display: flex;
-  display: none;
   justify-content: space-between;
   align-items: center;
 
@@ -9,20 +8,21 @@
 
   @mixin tabPort{
     display: flex;
-    display: none;
+     
     justify-content: flex-start;
   }
 
   @mixin tabLand{
     display: flex;
-    display: none;
   }
   
   &__toggle{
     background-color: rgb(81, 146, 65);
     padding: 4px 6px;
-    cursor: pointer;
     transition: $tr-all-fast;
+    border: none;
+    color: none;
+    font-size: 1..8rem;
 
     &:hover,&:active{
       filter: $brighten;

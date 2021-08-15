@@ -1,13 +1,10 @@
 .header-user-nav{
   display: flex;
-  display: none;
 
   padding: .5rem;
   width: 100%;
   background-color: rgb(226, 61, 11);
 
   @mixin tabPort{
-    display: flex;
-    display: none;
   }
 }

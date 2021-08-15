@@ -13,7 +13,10 @@
   }
 
   &__heading {
+    display: flex;
+    align-items: center;
     overflow: hidden;
+
     background-color: rgb(197, 67, 89);
     font-size: 2.4rem;
     padding-left: 10px;

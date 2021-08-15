@@ -1,17 +1,14 @@
 .header-search{
   display: flex;
-  display: none;
 
   width: 100%;
 
   @mixin tabPort{
     display: flex;
-    display: none;
   }
 
   @mixin tabLand{
     display: flex;
-    display: none;
   }
 
   &__input{
